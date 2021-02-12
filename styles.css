@@ -1,6 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #404040
+}
+
+div {
+    line-height: 1.5;
+}
+
 h1 {
     margin-top: 50pt;
     text-align: center;
+}
+
+h2 {
 }
 
 h4 {
@@ -14,6 +29,11 @@ img {
     margin-bottom: 50pt;
 }
 
+li {
+    line-height: 1.5;
+}
+
 p {
+    line-height: 1.5;
     text-align: justify;
 }
