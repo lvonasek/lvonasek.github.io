@@ -1,0 +1,2 @@
+com.lvonasek.arcore3dscanner 1
+com.lvonasek.arcore3dscannerpro 1
