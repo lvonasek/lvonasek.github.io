@@ -1,2 +1,2 @@
-com.lvonasek.arcore3dscanner 1 10 720
+com.lvonasek.arcore3dscanner 1 4 60
 com.lvonasek.arcore3dscannerpro 1 20 720
