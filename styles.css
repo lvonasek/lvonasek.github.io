@@ -25,8 +25,6 @@ h4 {
 img {
     display: block;
     margin: 0 auto;
-    margin-top: 20pt;
-    margin-bottom: 50pt;
 }
 
 li {
@@ -36,4 +34,9 @@ li {
 p {
     line-height: 1.5;
     text-align: justify;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0px 0px;
 }
