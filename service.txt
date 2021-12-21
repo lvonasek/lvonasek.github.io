@@ -1,2 +1,2 @@
-com.lvonasek.arcore3dscanner/3D_MODELING_KIT 1 4 60
-com.lvonasek.arcore3dscannerpro/3D_MODELING_KIT 1 20 720
+com.lvonasek.arcore3dscanner/3D_MODELING_KIT 1 40 720
+com.lvonasek.arcore3dscannerpro/3D_MODELING_KIT 1 40 720
