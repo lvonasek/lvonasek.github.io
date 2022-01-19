@@ -1,0 +1,58 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Language" content="en" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Luboš Vonásek" />
+  <meta name="description" content="3D Live Scanner - Android storage bug workaround" />
+  <meta name="keywords" content="" />
+  <meta name="robots" content="index,nofollow" />
+  <meta name="copyright" content="Luboš Vonásek" />
+  <link rel="stylesheet" href="styles.css">
+  <title>3D Live Scanner - Android storage bug workaround</title>
+</head>
+<body background="img/back2.jpg">
+  
+  <font color="#606060">
+    <h1>3D Live Scanner - Android storage bug workaround</h1>
+
+    <table>
+      <tr>
+        <td width="10%"></td>
+        <td width="80%"></br>
+          <p>
+            There's a new bug since Android 11. This bug prevents apps compiled with the latest SDK from accessing public folders. The problem occurs when the app is reinstalled or when a third-party app writes something to the folder. Google Play forces developers to use the latest SDK.
+          </p>
+
+          <h2>Workaround</h2>
+          <p><b>Step 1.</b> Uninstall the current version of 3D Live Scanner.</p>
+          <p><b>Step 2.</b> Locate 3D Live Scanner data folder. <i>Note that screenshots show the Samsung file manager, but the step is very similar in any file manager.</i></p>
+          <table>
+            <tr>
+              <td><a href="img/bug_file1.jpg"><img width="75%" src="img/bug_file1.jpg"></a></td>
+              <td><a href="img/bug_file2.jpg"><img width="75%" src="img/bug_file2.jpg"></a></td>
+              <td><a href="img/bug_file3.jpg"><img width="75%" src="img/bug_file3.jpg"></a></td>
+            </tr>
+          </table></br>
+          <p><b>Step 3.</b> Rename folder to "Models"</p>
+          <table>
+            <tr>
+              <td><a href="img/bug_file4.jpg"><img width="75%" src="img/bug_file4.jpg"></a></td>
+              <td><a href="img/bug_file5.jpg"><img width="75%" src="img/bug_file5.jpg"></a></td>
+              <td><a href="img/bug_file6.jpg"><img width="75%" src="img/bug_file6.jpg"></a></td>
+            </tr>
+          </table></br>
+          <p><b>Step 4.</b> Install an older version of the 3D Live Scanner: <a href="https://github.com/lvonasek/binary/raw/master/3DLiveScanner/2021-Q4-04.apk">Donwload APK</a></p>
+          <p><b>Step 5.</b> Update the app using Google Play Store</p>
+          <p>
+            When the application is restarted, the folder migration process starts and the Android system grants access rights to all data.
+          </p>
+        </td>
+        <td width="10%"></td>
+      </tr>
+    </table>
+  </font>
+</body>
+</html>
