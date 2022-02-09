@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.lvonasek.arcore3dscanner",
+    "sha256_cert_fingerprints":
+    ["25:59:DE:03:28:C6:55:36:A4:29:06:A3:16:97:51:4B:50:8D:BD:72:DF:A0:30:A3:13:B3:1A:44:4C:FE:76:7E"]
+  }
+}]
