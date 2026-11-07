@@ -36,6 +36,10 @@ p {
     text-align: justify;
 }
 
+body.mobile p {
+    font-size: 28pt;
+}
+
 table {
   border-collapse: separate;
   border-spacing: 0px 0px;
